@@ -20,14 +20,15 @@ $grey20: lighten($black, 80%);
 $grey10: lighten($black, 90%);
 $white: #FFFFFF;
 
-$blue: #448fff;
-$green: #03bc3b;
-$red: #d6062f;
+$blue: #17888d;
+$green: #1db727;
+$red: #e92a25;
+$orange: #e98025;
 
-$theme-colors: (
-    primary: $blue,
-    success: $green
-) !default;
+$light-blue: #2f989d;
+$light-green: #3cca46;
+$light-red: #ff514c;
+$light-orange: #ff9f4c;
 
 //
 // Body

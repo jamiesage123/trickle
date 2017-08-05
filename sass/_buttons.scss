@@ -1,24 +1,29 @@
 
-
 .button {
-    background-color: $blue;
-    color: $white;
-    padding: 1em 1.5em;
-    text-align: center;
-    border: 1px solid transparent;
-    border-radius: .25rem;
-    font-size: 16px;
-    display: inline-block;
-    text-decoration: none;
-    margin: 0.5em;
+    @include button($blue);
     &.primary {
-        background-color: $blue;
+        @include button($blue);
+        &:hover {
+            background-color: $light-blue;
+        }
     }
     &.danger {
-        background-color: $red;
+        @include button($red);
+        &:hover {
+            background-color: $light-red;
+        }
     }
     &.success {
-        background-color: $green;
+        @include button($green);
+        &:hover {
+            background-color: $light-green;
+        }
+    }
+    &.warning {
+        @include button($orange);
+        &:hover {
+            background-color: $light-orange;
+        }
     }
     &.small {
         padding: 0.5em 1em;

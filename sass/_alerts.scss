@@ -1,19 +1,17 @@
 
 .alert {
-    padding: 10px;
-    margin-bottom: 10px;
-    background-color: $blue;
-    color: $white;
-    border: 1px solid transparent;
-    border-radius: .25rem;
+    @include alert($blue);
     &.primary {
-        background-color: $blue;
+        @include alert($blue);
     }
     &.danger {
-        background-color: $red;
+        @include alert($red);
     }
     &.success {
-        background-color: $green;
+        @include alert($green);
+    }
+    &.warning {
+        @include alert($orange);
     }
 }
 
