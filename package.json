@@ -1,8 +1,9 @@
 {
-  "name": "framework",
+  "name": "trickle-css",
   "version": "1.0.0",
-  "description": "Basic Framework",
-  "main": "gulpfile.js",
+  "description": "A minimalist CSS Framework.",
+  "keywords": "",
+  "main": "",
   "directories": {
     "doc": "docs",
     "example": "example"
