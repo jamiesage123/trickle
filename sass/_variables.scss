@@ -20,6 +20,14 @@ $grey20: lighten($black, 80%);
 $grey10: lighten($black, 90%);
 $white: #FFFFFF;
 
+$blue: #448fff;
+$green: #03bc3b;
+$red: #d6062f;
+
+$theme-colors: (
+    primary: $blue,
+    success: $green
+) !default;
 
 //
 // Body
@@ -29,7 +37,7 @@ $body-bg: #f4f4f4;
 $body-color: #0f0f0f;
 
 //
-// Fonts 
+// Fonts
 //
 
 $font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;

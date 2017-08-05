@@ -8,6 +8,28 @@
     padding-right: 1em;
 }
 
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .center {
     text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
+.left {
+    text-align: left;
+}
+
+.pull-left {
+    float: left
+}
+
+.pull-right {
+    float: right;
 }

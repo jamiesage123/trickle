@@ -1,0 +1,36 @@
+
+.alert {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: $blue;
+    color: $white;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    &.primary {
+        background-color: $blue;
+    }
+    &.danger {
+        background-color: $red;
+    }
+    &.success {
+        background-color: $green;
+    }
+}
+
+.alert-close {
+    margin-left: 15px;
+    color: $white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.alert-close:hover {
+    color: $grey20;
+}
+
+.alert-heading {
+    color: inherit;
+}
