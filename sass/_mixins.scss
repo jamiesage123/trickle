@@ -1,3 +1,9 @@
+@mixin border-box {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
 @mixin button($button-color) {
     background-color: $button-color;
     color: $white;
