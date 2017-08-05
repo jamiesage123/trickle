@@ -1,9 +1,9 @@
 {
   "name": "trickle-css",
-  "version": "1.0.3a",
+  "version": "1.0.5a",
   "description": "A minimalist CSS Framework.",
   "keywords": "",
-  "main": "",
+  "main": "css, framework, trickle, sass",
   "directories": {
     "doc": "docs",
     "example": "example"
