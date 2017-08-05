@@ -13,10 +13,10 @@ table {
         }
     }
     tbody {
-        border-bottom: 1px solid $black;
+        border-bottom: 1px solid $grey50;
 
         tr {
-            border-bottom: 1px solid $black;
+            border-bottom: 1px solid $grey50;
             td {
                 padding: 0.75em 1em;
                 a {
@@ -25,7 +25,7 @@ table {
                     display: inline-block;
                     margin: 0 0.5em 0 0;
                     &:hover, &:active, &:focus {
-                        color: $grey90;
+                        color: $grey70;
                         border: none;
                     }
                 }
