@@ -1,0 +1,41 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    float: left;
+    margin: 0 0 2em;
+    thead {
+        border-bottom: 2px solid $black;
+        th {
+            padding: 0.3em 0 0.3em;
+            font-weight: bold;
+            font-size: 1.25em;
+            text-align: left;
+        }
+    }
+    tbody {
+        border-bottom: 1px solid $black;
+
+        tr {
+            border-bottom: 1px solid $black;
+            td {
+                padding: 0.75em 1em;
+                a {
+                    color: $black;
+                    text-decoration: none;
+                    display: inline-block;
+                    margin: 0 0.5em 0 0;
+                    &:hover, &:active, &:focus {
+                        color: $grey90;
+                        border: none;
+                    }
+                }
+            }
+        }
+    }
+    tfoot {
+        td {
+            padding: 0.3em 0 0.3em;
+            font-size: 1.25em;
+        }
+    }
+}
