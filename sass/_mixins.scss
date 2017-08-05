@@ -21,4 +21,8 @@
     border-radius: .25rem;
 }
 
-@mixin panel($panel)
+@mixin panel($panel-color) {
+    border: 1px solid $grey40;
+    border-radius: .25rem;
+    margin: 0.5em;
+}
