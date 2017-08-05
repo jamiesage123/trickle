@@ -1,13 +1,19 @@
-
 .panel {
-    @import panel($blue);
-    .heading {
-
-        .title {
-
-        }
+    &.primary {
+        @include panel($blue);
     }
-    .footer {
-
+    &.success {
+        @include panel($green);
+    }
+    &.warning {
+        @include panel($orange);
+    }
+    &.danger {
+        @include panel($red);
+    }
+    &.body {
+        padding: 0.75em 1em;
+        border: 0px solid transparent;
+        border-radius: .25rem;
     }
 }

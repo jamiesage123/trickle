@@ -22,7 +22,18 @@
 }
 
 @mixin panel($panel-color) {
-    border: 1px solid $grey40;
-    border-radius: .25rem;
     margin: 0.5em;
+    border: 1px solid $panel-color;
+    border-radius: .25rem;
+    .header {
+        @include panelHeader($panel-color);
+    }
+}
+
+@mixin panelHeader($panel-color) {
+    background-color: $panel-color;
+    border-radius: 0;
+    padding: 0.5em;
+    font-weight: bold;
+    color: $white;
 }

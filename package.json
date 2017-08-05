@@ -1,6 +1,6 @@
 {
   "name": "trickle-css",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A minimalist CSS Framework.",
   "keywords": "",
   "main": "",
@@ -21,12 +21,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ryan-bush/framework.git"
+    "url": "git+https://github.com/ryan-bush/trickle.git"
   },
   "author": "Ryan Bush",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ryan-bush/framework/issues"
+    "url": "https://github.com/ryan-bush/trickle/issues"
   },
-  "homepage": "https://github.com/ryan-bush/framework#readme"
+  "homepage": "https://github.com/ryan-bush/trickle#readme"
 }
