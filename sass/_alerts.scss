@@ -13,6 +13,18 @@
     &.warning {
         @include alert($orange);
     }
+    &.dp {
+        @include alert($default-blue);
+    }
+    &.dd {
+        @include alert($default-red);
+    }
+    &.ds {
+        @include alert($default-green);
+    }
+    &.dw {
+        @include alert($default-orange);
+    }
 }
 
 .alert-close {
