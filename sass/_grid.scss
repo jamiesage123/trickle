@@ -5,7 +5,46 @@
     min-height: 1px;
 }
 
+@media only screen and (max-width: 768px) {
+    .container {
+        width: 95%;
+        max-width: $grid-max-width;
+    }
+
+    @for $i from 1 through 12 {
+        .col-#{$i} {
+            width: 100%;
+        }
+    }
+}
+
+@media #{$bp-sm} {
+    .container {
+        width: 95%;
+        max-width: $grid-max-width;
+    }
+
+    @for $i from 1 through 12 {
+        .col-#{$i} {
+            width: 200% / $grid-cols * $i;
+        }
+    }
+}
+
 @media #{$bp-md} {
+    .container {
+        width: 95%;
+        max-width: $grid-max-width;
+    }
+
+    @for $i from 1 through 12 {
+        .col-#{$i} {
+            width: 100% / $grid-cols * $i;
+        }
+    }
+}
+
+@media #{$bp-lg} {
     .container {
         width: 95%;
         max-width: $grid-max-width;
