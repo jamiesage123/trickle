@@ -1,29 +1,29 @@
 
 .alert {
-    @include alert($blue);
-    &.primary {
-        @include alert($blue);
-    }
-    &.danger {
-        @include alert($red);
-    }
-    &.success {
-        @include alert($green);
-    }
-    &.warning {
-        @include alert($orange);
-    }
-    &.dp {
+    @include alert($default-blue);
+    &.blue {
         @include alert($default-blue);
     }
-    &.dd {
+    &.red {
         @include alert($default-red);
     }
-    &.ds {
+    &.green {
         @include alert($default-green);
     }
-    &.dw {
+    &.orange {
         @include alert($default-orange);
+    }
+    &.soft-blue {
+        @include alert($blue);
+    }
+    &.soft-red {
+        @include alert($red);
+    }
+    &.soft-green {
+        @include alert($green);
+    }
+    &.soft-orange {
+        @include alert($orange);
     }
 }
 
