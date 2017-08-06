@@ -12,17 +12,18 @@
 
 ### File Structure
 ```
-.
-├── ...
-├── trickle
-|   ├── dist
-|   |   └── css
-|   |   |   ├── framework.css
-|   |   |   └── framework.min.css
-|   ├── docs
-|   ├── example
-|   |   └── index.html
-|   ├── img
-|   ├── sass
-|   |   └── framework.scss
+    ├── ...
+    ├── trickle 
+    │   ├── dist
+    │   │   ├── css
+    │   │   │   └── flattern.css
+    │   ├── docs
+    │   ├── example
+    │   │   └── index.html
+    │   ├── img
+    │   ├── sass
+    │   │   └── ...
+    │   ├── LICENSE.md
+    │   ├── README.md
+    └── └── ... 
 ```
