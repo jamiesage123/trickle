@@ -31,11 +31,16 @@
 }
 
 @mixin panel($panel-color) {
-    margin: 0.5em;
     border: 1px solid $panel-color;
     border-radius: .25rem;
+    margin-bottom: 0.5em;
     .header {
         @include panelHeader($panel-color);
+    }
+    .body {
+        padding: 0.75em 1em;
+        border: 0px solid $panel-color;
+        border-radius: .25rem;
     }
 }
 

@@ -1,19 +1,27 @@
 .panel {
-    &.primary {
+    //@include panel($default-blue);
+    &.blue {
+        @include panel($default-blue);
+    }
+    &.green {
+        @include panel($default-green);
+    }
+    &.orange {
+        @include panel($default-orange);
+    }
+    &.red {
+        @include panel($default-red);
+    }
+    &.soft-blue {
         @include panel($blue);
     }
-    &.success {
+    &.soft-green {
         @include panel($green);
     }
-    &.warning {
+    &.soft-orange {
         @include panel($orange);
     }
-    &.danger {
+    &.soft-red {
         @include panel($red);
-    }
-    &.body {
-        padding: 0.75em 1em;
-        border: 0px solid transparent;
-        border-radius: .25rem;
     }
 }
