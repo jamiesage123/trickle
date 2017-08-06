@@ -7,15 +7,18 @@
 @mixin button($button-color) {
     background-color: $button-color;
     color: $white;
-    padding: 1em 1.5em;
+    padding: 0.5em 1em;
     text-align: center;
-    border: 1px solid transparent;
+    border: 1px solid $button-color;
     border-radius: .25rem;
     font-size: 16px;
     display: inline-block;
     text-decoration: none;
     margin: 0.5em;
     transition-duration: 0.4s;
+    &:hover {
+        background-color: lighten($button-color, 5%);
+    }
 }
 
 @mixin alert($alert-color) {

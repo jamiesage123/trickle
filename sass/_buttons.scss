@@ -1,32 +1,46 @@
 
 .button {
-    @include button($blue);
-    &.primary {
+    @include button($grey);
+    &.blue {
+        @include button($default-blue);
+    }
+    &.red {
+        @include button($default-red);
+    }
+    &.green {
+        @include button($default-green);
+    }
+    &.orange {
+        @include button($default-orange);
+    }
+    &.soft-blue {
         @include button($blue);
-        &:hover {
-            background-color: $light-blue;
-        }
     }
-    &.danger {
+    &.soft-red {
         @include button($red);
-        &:hover {
-            background-color: $light-red;
-        }
     }
-    &.success {
+    &.soft-green {
         @include button($green);
-        &:hover {
-            background-color: $light-green;
-        }
     }
-    &.warning {
+    &.soft-orange {
         @include button($orange);
-        &:hover {
-            background-color: $light-orange;
-        }
+    }
+    &.large {
+        padding: 0.5em 1em;
+        font-size: 18px;
     }
     &.small {
-        padding: 0.5em 1em;
+        padding: 0.4em 0.8em;
         font-size: 12px;
     }
+    &.x-small {
+        padding: 0.1em 0.3em;
+        font-size: 10px;
+    }
+}
+
+.button[disabled] {
+    cursor: not-allowed;
+    box-shadow: none;
+    opacity: .65;
 }
