@@ -63,20 +63,20 @@ p {
   line-height: 110%; }
 
 code {
+  border-radius: 4px;
   font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
   padding: 2px 4px;
   font-size: 90%;
   color: #c7254e;
-  background-color: #f9f2f4;
-  border-radius: 4px; }
+  background-color: #f9f2f4; }
 
 kbd {
+  border-radius: 4px;
   font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
   padding: 2px 4px;
   font-size: 90%;
   color: #FFFFFF;
-  background-color: #000000;
-  border-radius: 4px; }
+  background-color: #000000; }
 
 img {
   width: 100%;
@@ -782,13 +782,12 @@ Nav
 a.list {
   max-width: 400px;
   text-decoration: none;
-  min-width: 40%;
-  display: block;
   padding: 10px 15px;
   margin-bottom: -1px;
   background-color: #FFFFFF;
   border: 1px solid #999999;
-  color: #1a1a1a; }
+  color: #1a1a1a;
+  display: block; }
   a.list:hover {
     background-color: #f2f2f2; }
 
@@ -803,6 +802,57 @@ a.list-horizontal {
   margin-right: -6; }
   a.list-horizontal:hover {
     background-color: #f2f2f2; }
+
+label {
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 5px; }
+  label.form-label {
+    font-weight: bold; }
+
+input[type="email"] {
+  max-width: 100%; }
+
+textarea {
+  min-height: 5em; }
+
+select[multiple] {
+  min-height: 5em; }
+
+.checkbox {
+  font-weight: normal; }
+
+.form {
+  display: block;
+  width: 100%;
+  height: 2.5em;
+  padding: 6px 12px;
+  font-size: 14px;
+  border: 1px solid #ccc; }
+  .form:focus {
+    border-color: #66afe9;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6); }
+  .form[disabled] {
+    cursor: not-allowed;
+    background-color: #eee;
+    opacity: 1; }
+  .form.success {
+    outline: 0;
+    border-color: #3c763d;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075); }
+  .form.warning {
+    outline: 0;
+    border-color: #8a6d3b;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075); }
+  .form.error {
+    outline: 0;
+    border-color: #a94442;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075); }
 
 /*!
  *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome

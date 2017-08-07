@@ -1,26 +1,13 @@
 a {
     &.list {
-        max-width: 400px;
-        text-decoration: none;
-        min-width: 40%;
+        @include list;
         display: block;
-        padding: 10px 15px;
-        margin-bottom: -1px;
-        background-color: $white;
-        border: 1px solid $grey40;
-        color: $grey90;
         &:hover {
             background-color: darken($white, 5%)
         }
     }
     &.list-horizontal {
-        max-width: 400px;
-        text-decoration: none;
-        padding: 10px 15px;
-        margin-bottom: -1px;
-        background-color: $white;
-        border: 1px solid $grey40;
-        color: $grey90;
+        @include list;
         margin-right: -6;
         &:hover {
             background-color: darken($white, 5%)
