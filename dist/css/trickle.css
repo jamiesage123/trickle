@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /*!
- * Trickle v1.0.7
+ * Trickle v1.0.8
  * Copyright 2017 Ryan Bush
  * Licensed under the MIT license
  */
@@ -63,8 +63,20 @@ p {
   line-height: 110%; }
 
 code {
-  color: #333333;
-  background-color: #cccccc; }
+  font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+  padding: 2px 4px;
+  font-size: 90%;
+  color: #c7254e;
+  background-color: #f9f2f4;
+  border-radius: 4px; }
+
+kbd {
+  font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+  padding: 2px 4px;
+  font-size: 90%;
+  color: #FFFFFF;
+  background-color: #000000;
+  border-radius: 4px; }
 
 img {
   width: 100%;
@@ -430,6 +442,11 @@ hr {
     padding: 0.75em 1em;
     border: 0px solid #DB5461; }
 
+/*
+
+Grid
+
+*/
 [class*='col-'] {
   float: left;
   padding: 1em;
@@ -598,6 +615,11 @@ table {
     padding: 0.3em 0 0.3em;
     font-size: 1.25em; }
 
+/*
+
+Nav
+
+*/
 .sidenav.fixed {
   position: fixed; }
 
