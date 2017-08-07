@@ -587,13 +587,14 @@ Grid
 
 table {
   width: 100%;
+  max-width: 1170px;
   border-collapse: collapse;
   float: left;
   margin: 0 0 2em; }
   table thead {
-    border-bottom: 2px solid #000000; }
+    border-bottom: 2px solid gray; }
     table thead th {
-      padding: 0.3em 0 0.3em;
+      padding: 0.75em 1em;
       font-weight: bold;
       font-size: 1.25em;
       text-align: left; }
@@ -611,9 +612,37 @@ table {
           table tbody tr td a:hover, table tbody tr td a:active, table tbody tr td a:focus {
             color: #4d4d4d;
             border: none; }
+      table tbody tr.blue {
+        background-color: #cfe0ed; }
+      table tbody tr.red {
+        background-color: #f6d2d6; }
+      table tbody tr.green {
+        background-color: #bee4d2; }
+      table tbody tr.orange {
+        background-color: #ffeac9; }
+    table tbody th {
+      padding: 0.75em 1em;
+      font-weight: bold;
+      font-size: 1.25em;
+      text-align: left; }
   table tfoot td {
     padding: 0.3em 0 0.3em;
     font-size: 1.25em; }
+  table.bordered {
+    border: 1px solid gray; }
+    table.bordered td, table.bordered th {
+      border: 1px solid gray; }
+  table.hover > tbody > tr:hover {
+    background-color: #e6e6e6; }
+  table.responsive {
+    overflow-x: auto;
+    min-height: 0.01%; }
+    @media only screen and (max-width: 768px) {
+      table.responsive {
+        width: 100%;
+        overflow-y: hidden;
+        -ms-overflow-style: -ms-autohiding-scrollbar;
+        border: 1px solid gray; } }
 
 /*
 

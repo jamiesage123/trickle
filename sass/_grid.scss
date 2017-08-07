@@ -16,7 +16,7 @@ Grid
     }
 }
 
-@media only screen and (max-width: 768px) {
+@media #{$bp-xp} {
     .container {
         width: 95%;
         max-width: $max-width-xs;

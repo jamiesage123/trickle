@@ -65,7 +65,13 @@ $max-width-sm: 750px;
 $max-width-md: 970px;
 $max-width-lg: 1170px;
 
-
+$bp-xp: "only screen and (max-width: 768px)";
 $bp-sm: "only screen and (min-width: 768px)";
 $bp-md: "only screen and (min-width: 992px)";
 $bp-lg: "only screen and (min-width: 1200px)";
+
+//
+// Table
+//
+
+$table-max-width: 1170px;

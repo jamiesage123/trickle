@@ -1,0 +1,14 @@
+@mixin table-header {
+    padding: 0.75em 1em;
+    font-weight: bold;
+    font-size: 1.25em;
+    text-align: left;
+}
+
+@mixin table {
+    width: 100%;
+    max-width: $table-max-width;
+    border-collapse: collapse;
+    float: left;
+    margin: 0 0 2em;
+}
