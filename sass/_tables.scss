@@ -25,16 +25,16 @@ table {
                 }
             }
             &.blue {
-                background-color: lighten($blue, 50%);
+                background-color: $light-blue;
             }
             &.red {
-                background-color: lighten($red, 30%);
+                background-color: $light-red;
             }
             &.green {
-                background-color: lighten($green, 30%);
+                background-color: $light-green;
             }
             &.orange {
-                background-color: lighten($orange, 25%);
+                background-color: $light-orange;
             }
         }
         th {

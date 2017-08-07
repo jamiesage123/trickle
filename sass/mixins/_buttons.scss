@@ -10,6 +10,6 @@
     margin: 0.5em;
     transition-duration: 0.4s;
     &:hover {
-        background-color: lighten($button-color, 5%);
+        background-color: lighten($button-color, 20%);
     }
 }

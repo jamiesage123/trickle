@@ -209,7 +209,7 @@ hr {
   -o-transition-duration: 0.4s;
   transition-duration: 0.4s; }
   .button:hover {
-    background-color: #d2d2d2; }
+    background-color: #f8f8f8; }
   .button.blue {
     background-color: #4392F1;
     color: #FFFFFF;
@@ -224,7 +224,7 @@ hr {
     -o-transition-duration: 0.4s;
     transition-duration: 0.4s; }
     .button.blue:hover {
-      background-color: #5ba0f3; }
+      background-color: #a2c9f8; }
   .button.red {
     background-color: #D00000;
     color: #FFFFFF;
@@ -239,7 +239,7 @@ hr {
     -o-transition-duration: 0.4s;
     transition-duration: 0.4s; }
     .button.red:hover {
-      background-color: #ea0000; }
+      background-color: #ff3737; }
   .button.green {
     background-color: #069E2D;
     color: #FFFFFF;
@@ -254,7 +254,7 @@ hr {
     -o-transition-duration: 0.4s;
     transition-duration: 0.4s; }
     .button.green:hover {
-      background-color: #07b734; }
+      background-color: #14f64e; }
   .button.orange {
     background-color: #FCBA04;
     color: #FFFFFF;
@@ -269,7 +269,7 @@ hr {
     -o-transition-duration: 0.4s;
     transition-duration: 0.4s; }
     .button.orange:hover {
-      background-color: #fcc11d; }
+      background-color: #fdd669; }
   .button.soft-blue {
     background-color: #33658A;
     color: #FFFFFF;
@@ -284,7 +284,7 @@ hr {
     -o-transition-duration: 0.4s;
     transition-duration: 0.4s; }
     .button.soft-blue:hover {
-      background-color: #3a739d; }
+      background-color: #5f99c4; }
   .button.soft-red {
     background-color: #DB5461;
     color: #FFFFFF;
@@ -299,7 +299,7 @@ hr {
     -o-transition-duration: 0.4s;
     transition-duration: 0.4s; }
     .button.soft-red:hover {
-      background-color: #df6974; }
+      background-color: #eda8af; }
   .button.soft-green {
     background-color: #52B788;
     color: #FFFFFF;
@@ -314,7 +314,7 @@ hr {
     -o-transition-duration: 0.4s;
     transition-duration: 0.4s; }
     .button.soft-green:hover {
-      background-color: #64be94; }
+      background-color: #9ad5ba; }
   .button.soft-orange {
     background-color: #FFBA49;
     color: #FFFFFF;
@@ -329,7 +329,7 @@ hr {
     -o-transition-duration: 0.4s;
     transition-duration: 0.4s; }
     .button.soft-orange:hover {
-      background-color: #ffc463; }
+      background-color: #ffe1af; }
   .button.large {
     padding: 0.5em 1em;
     font-size: 18px; }
