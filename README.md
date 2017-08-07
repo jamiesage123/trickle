@@ -8,7 +8,6 @@
 [![npm](https://img.shields.io/npm/l/trickle-css.svg?style=flat-square)](https://github.com/ryan-bush/trickle/blob/master/LICENSE)
 [![npm](https://img.shields.io/npm/dm/trickle-css.svg?style=flat-square)](https://www.npmjs.com/package/trickle-css)
 [![npm](https://img.shields.io/npm/dt/trickle-css.svg?style=flat-square)](https://www.npmjs.com/package/trickle-css)
-[![Github All Releases](https://img.shields.io/github/downloads/ryan-bush/trickle-css/total.svg?style=flat-square)](https://github.com/ryan-bush/trickle)
 
 ### Installation
 
