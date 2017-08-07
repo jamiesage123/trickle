@@ -20,12 +20,18 @@ $grey20: lighten($black, 80%);
 $grey10: lighten($black, 90%);
 $white: #FFFFFF;
 
-// Pastle Colors
+// Default Colors
 $grey: #C5C5C5 ;
-$blue: #33658A;
-$green: #52B788;
-$red: #DB5461;
-$orange: #FFBA49;
+$blue: #4392F1;
+$green: #069E2D;
+$red: #D00000;
+$orange: #FCBA04;
+// Pastle Colors
+$soft-grey: #C5C5C5 ;
+$soft-blue: #33658A;
+$soft-green: #52B788;
+$soft-red: #DB5461;
+$soft-orange: #FFBA49;
 
 $light-grey: lighten($grey, 20%);
 $light-blue: lighten($blue, 50%);
@@ -33,11 +39,7 @@ $light-green: lighten($green, 30%);
 $light-red: lighten($red, 30%);
 $light-orange: lighten($orange, 25%);
 
-// Default Colors
-$default-blue: #4392F1;
-$default-green: #069E2D;
-$default-red: #D00000;
-$default-orange: #FCBA04;
+$base-colors: $grey, $blue, $green, $red, $orange, $soft-blue, $soft-green, $soft-red, $soft-orange;
 
 // $light-blue: #2f989d;
 // $light-green: #3cca46;

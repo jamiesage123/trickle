@@ -2,28 +2,28 @@
 .button {
     @include button($grey);
     &.blue {
-        @include button($default-blue);
-    }
-    &.red {
-        @include button($default-red);
-    }
-    &.green {
-        @include button($default-green);
-    }
-    &.orange {
-        @include button($default-orange);
-    }
-    &.soft-blue {
         @include button($blue);
     }
-    &.soft-red {
+    &.red {
         @include button($red);
     }
-    &.soft-green {
+    &.green {
         @include button($green);
     }
-    &.soft-orange {
+    &.orange {
         @include button($orange);
+    }
+    &.soft-blue {
+        @include button($soft-blue);
+    }
+    &.soft-red {
+        @include button($soft-red);
+    }
+    &.soft-green {
+        @include button($soft-green);
+    }
+    &.soft-orange {
+        @include button($soft-orange);
     }
     &.large {
         padding: 0.5em 1em;
@@ -36,6 +36,35 @@
     &.x-small {
         padding: 0.1em 0.3em;
         font-size: 10px;
+    }
+
+}
+
+.button.hollow {
+    @include button-hollow($grey);
+    &.blue {
+        @include button-hollow($blue);
+    }
+    &.red {
+        @include button-hollow($red);
+    }
+    &.green {
+        @include button-hollow($green);
+    }
+    &.orange {
+        @include button-hollow($orange);
+    }
+    &.soft-blue {
+        @include button-hollow($soft-blue);
+    }
+    &.soft-red {
+        @include button-hollow($soft-red);
+    }
+    &.soft-green {
+        @include button-hollow($soft-green);
+    }
+    &.soft-orange {
+        @include button-hollow($soft-orange);
     }
 }
 

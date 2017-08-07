@@ -1,29 +1,29 @@
 
 .alert {
-    @include alert($default-blue);
+    @include alert($blue);
     &.blue {
-        @include alert($default-blue);
-    }
-    &.red {
-        @include alert($default-red);
-    }
-    &.green {
-        @include alert($default-green);
-    }
-    &.orange {
-        @include alert($default-orange);
-    }
-    &.soft-blue {
         @include alert($blue);
     }
-    &.soft-red {
+    &.red {
         @include alert($red);
     }
-    &.soft-green {
+    &.green {
         @include alert($green);
     }
-    &.soft-orange {
+    &.orange {
         @include alert($orange);
+    }
+    &.soft-blue {
+        @include alert($soft-blue);
+    }
+    &.soft-red {
+        @include alert($soft-red);
+    }
+    &.soft-green {
+        @include alert($soft-green);
+    }
+    &.soft-orange {
+        @include alert($soft-orange);
     }
 }
 

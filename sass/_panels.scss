@@ -1,26 +1,26 @@
 .panel {
     &.blue {
-        @include panel($default-blue);
-    }
-    &.green {
-        @include panel($default-green);
-    }
-    &.orange {
-        @include panel($default-orange);
-    }
-    &.red {
-        @include panel($default-red);
-    }
-    &.soft-blue {
         @include panel($blue);
     }
-    &.soft-green {
+    &.green {
         @include panel($green);
     }
-    &.soft-orange {
+    &.orange {
         @include panel($orange);
     }
-    &.soft-red {
+    &.red {
         @include panel($red);
+    }
+    &.soft-blue {
+        @include panel($soft-blue);
+    }
+    &.soft-green {
+        @include panel($soft-green);
+    }
+    &.soft-orange {
+        @include panel($soft-orange);
+    }
+    &.soft-red {
+        @include panel($soft-red);
     }
 }
