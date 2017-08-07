@@ -1,5 +1,4 @@
 .panel {
-    //@include panel($default-blue);
     &.blue {
         @include panel($default-blue);
     }

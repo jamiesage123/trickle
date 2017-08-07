@@ -22,13 +22,16 @@ npm install trickle-css
     ├── trickle
     │   ├── dist
     │   │   ├── css
-    │   │   │   └── flattern.css
+    │   │   │   └── trickle.css
+    │   │   └── js
+    │   │   │   └── trickle.css
     │   ├── docs
     │   ├── example
     │   │   └── index.html
     │   ├── img
     │   ├── sass
-    │   │   └── ...
+    │   │   ├── mixins
+    │   │   └── trickle.sass
     │   ├── LICENSE.md
     │   ├── README.md
     └── └── ...

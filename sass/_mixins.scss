@@ -1,53 +1,5 @@
-@mixin header-styling {
-    margin: 0px;
-    line-height: 150%;
-}
-
-@mixin border-box {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
-
-@mixin button($button-color) {
-    background-color: $button-color;
-    color: $white;
-    padding: 0.5em 1em;
-    text-align: center;
-    border: 1px solid $button-color;
-    font-size: 16px;
-    display: inline-block;
-    text-decoration: none;
-    margin: 0.5em;
-    transition-duration: 0.4s;
-    &:hover {
-        background-color: lighten($button-color, 5%);
-    }
-}
-
-@mixin alert($alert-color) {
-    padding: 10px;
-    margin-bottom: 10px;
-    background-color: $alert-color;
-    color: $white;
-    border: 1px solid transparent;
-}
-
-@mixin panel($panel-color) {
-    border: 1px solid $panel-color;
-    margin-bottom: 0.5em;
-    .header {
-        @include panelHeader($panel-color);
-    }
-    .body {
-        padding: 0.75em 1em;
-        border: 0px solid $panel-color;
-    }
-}
-
-@mixin panelHeader($panel-color) {
-    background-color: $panel-color;
-    padding: 0.5em;
-    font-weight: bold;
-    color: $white;
-}
+@import "mixins/header";
+@import "mixins/border";
+@import "mixins/alerts";
+@import "mixins/buttons";
+@import "mixins/panels";
