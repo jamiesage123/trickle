@@ -749,13 +749,13 @@ table {
             color: #4d4d4d;
             border: none; }
       table tbody tr.blue {
-        background-color: white; }
+        background-color: #cfe0ed; }
       table tbody tr.red {
-        background-color: #ff6a6a; }
+        background-color: #f6d2d6; }
       table tbody tr.green {
-        background-color: #45f873; }
+        background-color: #bee4d2; }
       table tbody tr.orange {
-        background-color: #fedd82; }
+        background-color: #ffeac9; }
     table tbody th {
       padding: 0.75em 1em;
       font-weight: bold;
@@ -782,8 +782,7 @@ Nav
 a.list {
   max-width: 400px;
   text-decoration: none;
-  min-width: 60%;
-  position: relative;
+  min-width: 40%;
   display: block;
   padding: 10px 15px;
   margin-bottom: -1px;
@@ -791,6 +790,18 @@ a.list {
   border: 1px solid #999999;
   color: #1a1a1a; }
   a.list:hover {
+    background-color: #f2f2f2; }
+
+a.list-horizontal {
+  max-width: 400px;
+  text-decoration: none;
+  padding: 10px 15px;
+  margin-bottom: -1px;
+  background-color: #FFFFFF;
+  border: 1px solid #999999;
+  color: #1a1a1a;
+  margin-right: -6; }
+  a.list-horizontal:hover {
     background-color: #f2f2f2; }
 
 /*!

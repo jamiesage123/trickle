@@ -33,11 +33,11 @@ $soft-green: #52B788;
 $soft-red: #DB5461;
 $soft-orange: #FFBA49;
 
-$light-grey: lighten($grey, 20%);
-$light-blue: lighten($blue, 50%);
-$light-green: lighten($green, 30%);
-$light-red: lighten($red, 30%);
-$light-orange: lighten($orange, 25%);
+$light-grey: lighten($soft-grey, 20%);
+$light-blue: lighten($soft-blue, 50%);
+$light-green: lighten($soft-green, 30%);
+$light-red: lighten($soft-red, 30%);
+$light-orange: lighten($soft-orange, 25%);
 
 $base-colors: $grey, $blue, $green, $red, $orange, $soft-blue, $soft-green, $soft-red, $soft-orange;
 
