@@ -1,7 +1,8 @@
 @charset "UTF-8";
 /*!
- *  Trickle CSS 1.0.6 by @ryan-bush 
- *  License - https://github.com/ryan-bush/trickle/blob/master/LICENSE
+ * Trickle v1.0.7
+ * Copyright 2017 Ryan Bush
+ * Licensed under the MIT license
  */
 /*
 
@@ -47,6 +48,11 @@ hr {
   margin: 1em 0; }
 
 .container {
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%; }
+
+.container-full {
   margin-right: auto;
   margin-left: auto;
   width: 100%; }
@@ -411,6 +417,9 @@ hr {
 @media only screen and (max-width: 768px) {
   .container {
     width: 95%;
+    max-width: 768px; }
+  .container-fluid {
+    width: 95%;
     max-width: 100%; }
   .col-1 {
     width: 100%; }
@@ -439,6 +448,9 @@ hr {
 
 @media only screen and (min-width: 768px) {
   .container {
+    width: 95%;
+    max-width: 750px; }
+  .container-fluid {
     width: 95%;
     max-width: 100%; }
   .col-1 {
@@ -469,6 +481,9 @@ hr {
 @media only screen and (min-width: 992px) {
   .container {
     width: 95%;
+    max-width: 970px; }
+  .container-fluid {
+    width: 95%;
     max-width: 100%; }
   .col-1 {
     width: 8.33333%; }
@@ -497,6 +512,9 @@ hr {
 
 @media only screen and (min-width: 1200px) {
   .container {
+    width: 95%;
+    max-width: 1170px; }
+  .container-fluid {
     width: 95%;
     max-width: 100%; }
   .col-1 {

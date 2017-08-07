@@ -13,6 +13,10 @@
 @media only screen and (max-width: 768px) {
     .container {
         width: 95%;
+        max-width: $max-width-xs;
+    }
+    .container-fluid {
+        width: 95%;
         max-width: $grid-max-width;
     }
 
@@ -25,6 +29,10 @@
 
 @media #{$bp-sm} {
     .container {
+        width: 95%;
+        max-width: $max-width-sm;
+    }
+    .container-fluid {
         width: 95%;
         max-width: $grid-max-width;
     }
@@ -39,6 +47,10 @@
 @media #{$bp-md} {
     .container {
         width: 95%;
+        max-width: $max-width-md;
+    }
+    .container-fluid {
+        width: 95%;
         max-width: $grid-max-width;
     }
 
@@ -51,6 +63,10 @@
 
 @media #{$bp-lg} {
     .container {
+        width: 95%;
+        max-width: $max-width-lg;
+    }
+    .container-fluid {
         width: 95%;
         max-width: $grid-max-width;
     }
