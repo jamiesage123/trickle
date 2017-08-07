@@ -1,3 +1,8 @@
+@mixin header-styling {
+    margin: 0px;
+    line-height: 150%;
+}
+
 @mixin border-box {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;

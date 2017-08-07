@@ -29,7 +29,33 @@ body {
   background-color: #ECE8EF;
   color: #000000; }
 
-h1, h2, h3, h4, h5, h6 {
+h1 {
+  font-size: 36px;
+  margin: 0px;
+  line-height: 150%; }
+
+h2 {
+  font-size: 30px;
+  margin: 0px;
+  line-height: 150%; }
+
+h3 {
+  font-size: 24px;
+  margin: 0px;
+  line-height: 150%; }
+
+h4 {
+  font-size: 18px;
+  margin: 0px;
+  line-height: 150%; }
+
+h5 {
+  font-size: 14px;
+  margin: 0px;
+  line-height: 150%; }
+
+h6 {
+  font-size: 12px;
   margin: 0px;
   line-height: 150%; }
 
@@ -571,6 +597,23 @@ table {
   table tfoot td {
     padding: 0.3em 0 0.3em;
     font-size: 1.25em; }
+
+.sidenav.fixed {
+  position: fixed; }
+
+a.list {
+  max-width: 400px;
+  text-decoration: none;
+  min-width: 60%;
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+  margin-bottom: -1px;
+  background-color: #FFFFFF;
+  border: 1px solid #999999;
+  color: #1a1a1a; }
+  a.list:hover {
+    background-color: #f2f2f2; }
 
 /*!
  *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
