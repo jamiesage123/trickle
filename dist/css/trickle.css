@@ -58,6 +58,7 @@ code {
   font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
   padding: 2px 4px;
   font-size: 90%;
+  font-weight: 100;
   color: #c7254e;
   background-color: #f9f2f4; }
 
@@ -66,6 +67,7 @@ kbd {
   font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
   padding: 2px 4px;
   font-size: 90%;
+  font-weight: 100;
   color: #FFFFFF;
   background-color: #000000; }
 
