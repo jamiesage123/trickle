@@ -100,12 +100,14 @@ div {
   margin-right: auto;
   margin-left: auto;
   width: 100%;
+  font-family: inherit;
 }
 
 .container-full {
   margin-right: auto;
   margin-left: auto;
   width: 100%;
+  font-family: inherit;
 }
 
 .row {
