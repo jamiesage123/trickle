@@ -3,14 +3,14 @@ a {
         @include list;
         display: block;
         &:hover {
-            background-color: darken($white, 5%)
+            background-color: darken($white, 5%);
         }
     }
     &.list-horizontal {
         @include list;
         margin-right: -6;
         &:hover {
-            background-color: darken($white, 5%)
+            background-color: darken($white, 5%);
         }
     }
 }
